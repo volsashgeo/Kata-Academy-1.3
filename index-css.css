@@ -25,8 +25,6 @@
     margin: 0 16px;
 }
 
-/*!Начало. Список иконок в навигации */
-
 .nav-list {
     height: 88px;
 }
@@ -75,10 +73,6 @@
 
 }
 
-/* !Конец. Список иконок в навигации */
-
-/* ? Начало. Заголовок */
-
 .highlight {
     /* display: inline; */
     border-right: 4px solid #41F6D7;
@@ -98,12 +92,6 @@
 
 
 }
-
-/*?Конец. Заголовок */
-
-/* !Начало. Список услуг */
-
-
 
 .servises-list {
     display: flex;
@@ -159,20 +147,10 @@
     transition:scale 0.5s ease-in-out
 }
 
-/*! Конец. Список услуг */
-
-/* ?Начало. Отзывы */
-
 .reviews {
 
     display: none;
 }
-
-/* ?Конец. Отзывы */
-
-
-
-/** Начало. Текст */
 
 .section-description {
     overflow: hidden;
@@ -188,11 +166,6 @@ text-align: left;
 
 
 }
-
-
-/** Конец. Текст */
-
-/*! Начало. Ссылка */
 
 .link-read-next {
     display: flex;
@@ -220,10 +193,6 @@ text-align: left;
     letter-spacing: -0.20000000298023224px;
 }
 
-/* !Конец. Ссылка */
-
-/*? Начало. Картинка */
-
 .picture__pic {
     width: 320px;
     height: 176px;
@@ -243,16 +212,11 @@ text-align: left;
     }
 }
 
-/*? Конец. Картинка */
-
-
 @media (min-width: 768px) {
 
     .wrapper {
         margin: 0 25px 0 24px;
     }
-
-    /*!Начало. Список иконок в навигации */
 
     .call,.chat,.profile {
         display: block;
@@ -277,17 +241,10 @@ text-align: left;
         margin: 0;
     }
 
-    /* !Конец. Список иконок в навигации */
-
-    /* ? Начало. Заголовок */
     .page-name {
         margin-bottom: 32px;
         margin-top: 24px;
     }
-
-    /*?Конец. Заголовок */
-
-    /* !Начало. Список услуг */
 
     .servises-list {
         min-width: 776px;
@@ -297,18 +254,9 @@ text-align: left;
         width: 19.31px;
 }
 
-    /*! Конец. Список услуг */
-
-    /* ?Начало. Отзывы */
-
     .reviews {
         display: none;
     }
-
-    /* ?Конец. Отзывы */
-
-    /* ! Начало.Другое разрешение-768  */
-
 
     .next-resolution-768 {
         display: flex;
@@ -318,13 +266,9 @@ text-align: left;
         justify-content: space-between;
     }
 
-    /* ? Начало.Шаблон описание + ссылка */
-
     .template-description-link {
         margin: 0;
     }
-
-    /** Начало. Текст */
 
     .section-description {
         max-height: 160px;
@@ -345,14 +289,6 @@ text-align: left;
     }
     /** Конец. Текст */
 
-    /*! Начало. Ссылка */
-
-    /* !Конец. Ссылка */
-
-    /* ? Конец.Шаблон описание + ссылка */
-
-    /*? Начало. Картинка */
-
     .picture__pic {
         border-radius:7px 0 0 7px  ;
         width: 100%;
@@ -366,10 +302,6 @@ text-align: left;
         min-width: 360px;
         min-height: 208px;
     }
-
-    /*? Конец. Картинка */
-
-    /* ! Конец.Другое разрешение-768  */
 }
 
 
@@ -380,8 +312,6 @@ text-align: left;
         margin: 0 25px 0 32px;
     }
 
-    /* ? Начало.Другое разрешение-1120  */
-
     .next-resolution-1120 {
         display: flex;
         margin-top: 42px;
@@ -391,7 +321,6 @@ text-align: left;
         margin-bottom: 8px;
     }
 
-    /*!Начало. Список иконок в навигации */
     .nav-list {
         order: 2;
     }
@@ -427,20 +356,11 @@ text-align: left;
         min-width: 119px;
     }
 
-    /* !Конец. Список иконок в навигации */
-
-    /* ? Начало. Заголовок */
     .page-name {
         margin-bottom: 32px;
         margin-top: 24px;
         white-space: nowrap;
     }
-
-    /*?Конец. Заголовок */
-
-    /* ? Конец.Другое разрешение-1120  */
-
-    /* !Начало. Список услуг */
 
     .servises-list {
         min-width: 776px;
@@ -449,10 +369,6 @@ text-align: left;
         max-height: 82px;
 
     }
-
-    /*! Конец. Список услуг */
-
-    /* ! Начало.Другое разрешение-768  */
 
     .next-resolution-768 {
         /* display: flex;
@@ -463,13 +379,9 @@ text-align: left;
         margin-top: 0;
     }
 
-    /* ? Начало.Шаблон описание + ссылка */
-
     .template-description-link {
         margin: 0;
     }
-
-    /** Начало. Текст */
 
     .section-description {
         max-height: 160px;
@@ -486,16 +398,6 @@ text-align: left;
         margin-bottom: 0;
     }
 
-    /** Конец. Текст */
-
-    /*! Начало. Ссылка */
-
-    /* !Конец. Ссылка */
-
-    /* ? Конец.Шаблон описание + ссылка */
-
-    /*? Начало. Картинка */
-
     .picture__pic {
         border-radius:7px 0 0 7px  ;
         width: 100%;
@@ -509,10 +411,6 @@ text-align: left;
         min-width: 531.35px;
         min-height: 307px;
     }
-
-    /*? Конец. Картинка */
-
-    /* ! Конец.Другое разрешение-768  */
 }
 
 
