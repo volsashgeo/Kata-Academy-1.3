@@ -367,15 +367,9 @@ text-align: left;
         margin-bottom: 7px;
         flex-wrap: wrap;
         max-height: 82px;
-
     }
 
     .next-resolution-768 {
-        /* display: flex;
-        min-width: 720px;
-        height: 208px;
-        margin: 0;
-        margin-bottom: 40px; */
         margin-top: 0;
     }
 
