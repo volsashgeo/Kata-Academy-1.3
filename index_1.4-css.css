@@ -138,10 +138,12 @@ body {
 .langs__label {
     text-transform:uppercase ;
     margin-right: 7px;
-
 }
-.langs__label--checked {
-opacity: 0.5;
+
+#ru:checked + label[for="ru"],
+#en:checked + label[for="en"],
+#ch:checked + label[for="ch"] {
+    opacity: 0.5;
 }
 
 .langs {
