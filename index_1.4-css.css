@@ -140,10 +140,8 @@ body {
     margin-right: 7px;
 }
 
-#ru:checked + label[for="ru"],
-#en:checked + label[for="en"],
-#ch:checked + label[for="ch"] {
-    opacity: 0.5;
+.langs__item:checked + .langs__label {
+    color:#7E7E82
 }
 
 .langs {
