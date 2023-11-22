@@ -19,6 +19,7 @@ body {
     letter-spacing: -0.20000000298023224px;
     color: #1B1C21;
     max-height: 1024px;
+    height: 100%;
     width: 320px;
 }
 
@@ -89,22 +90,23 @@ body {
     }
 }
 
-.abs-block {
-    position: absolute;
-    bottom: 0;
+.flexible-block {
+    display: flex;
+    flex-direction: column;
+    height:  calc(100vh - 568px);
 }
 
-.abs-block .nav-list {
+.flexible-block .nav-list {
     margin: auto 0 9px 0;
 }
 
-.abs-block .nav-list__items {
+.flexible-block .nav-list__items {
     display: flex;
     max-height: 47px;
     align-items: center;
 }
 
-.abs-block .nav-list__item:nth-of-type(2) {
+.flexible-block .nav-list__item:nth-of-type(2) {
     margin: 0 26px 0;
 }
 
@@ -114,13 +116,17 @@ body {
     color: #1B1C21
 }
 
+.email {
+    margin-bottom: 12px;
+}
+
 .phone {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.6000000238418579px;
     text-align: left;
     font-weight: bold;
-    margin: 12px 0 40px 0;;
+    margin-bottom: 40px ;
 
 }
 
