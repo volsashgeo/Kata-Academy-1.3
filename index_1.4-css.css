@@ -21,6 +21,8 @@ body {
     max-height: 1024px;
     height: 100%;
     width: 320px;
+    box-shadow: 16px 0px 52px 0px rgba(69, 79, 126, 0.4);
+    border:1px solid rgba(69, 79, 126, 0.02);
 }
 
 .wrapper {
@@ -52,7 +54,7 @@ body {
 .nav-list__link img:hover {
     scale: 1.2;
     opacity: 0.8;
-    transition: scale 0.5s ease-in-out
+    transition:all 0.5s ease-in-out;
 }
 
 .menu {
@@ -62,6 +64,17 @@ body {
 .menu__link {
     text-decoration: none;
     color: #1B1C21;
+}
+
+.menu__item:hover,
+.langs__label:hover,
+.email:hover ,
+.phone:hover{
+    scale:1.1;
+    background: linear-gradient(to right,white, rgba(155, 155, 236, 0.75));
+    translate:15px;
+    transition: all 1s ease;
+    max-width:90%;
 }
 
 .menu__item--checked .menu__link {
@@ -75,8 +88,13 @@ body {
 .menu__item--checked::before {
     content: url(pics/highlight.png);
     position: absolute;
-    left: 0;
+    left:0;
     top:calc(100px + 16px*1);
+}
+
+.menu__item--checked:hover::before{
+    left:-10px;
+    top:0;
 }
 
 @media (max-height:676px) {
