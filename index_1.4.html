@@ -6,36 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блок 1.3_ Построение сеток + БЭМ именование</title>
     <link rel="stylesheet" href="Normalize.css">
-    <link rel="stylesheet" href="index_1.4-css.css">
+    <link rel="stylesheet" href="index-css.css">
 </head>
 
 <body>
-    <main>
-        <div class="wrapper">
-            <nav class="nav-list">
+    <main class="aside-body">
+        <aside class="wrapper aside__wrapper">
+            <header class="nav-list aside__nav-list">
                 <ul class="nav-list__items">
 
-                    <li class="nav-list__item">
-                        <a href="#" class="nav-list__link">
+                    <li class="button">
+                        <a href="#" class="button__link">
                             <img src="pics/cancell.svg" alt="burger-active">
                         </a>
 
                     </li>
 
-                    <li class="nav-list__item">
-                        <a href="#" class="nav-list__link">
+                    <li class="logo">
+                        <a href="#" class="button__link">
                             <img src="pics/Group.svg" alt="logo">
                         </a>
                     </li>
 
-                    <li class="nav-list__item">
-                        <a href="#" class="nav-list__link">
+                    <li class="button">
+                        <a href="#" class="button__link">
                             <img src="pics/search.svg" alt="search">
                         </a>
                     </li>
 
                 </ul>
-            </nav>
+            </header>
 
             <ul class="menu">
 
@@ -90,58 +90,43 @@
             </ul>
 
             <div class="flexible-block">
-                <nav class="nav-list">
+                <footer class="nav-list aside__nav-list">
                     <ul class="nav-list__items">
 
-                        <li class="nav-list__item">
-                            <a href="#" class="nav-list__link">
+                        <li class="button">
+                            <a href="#" class="button__link">
                                 <img src="pics/call.svg" alt="call">
                             </a>
                         </li>
 
-                        <li class="nav-list__item">
-                            <a href="#" class="nav-list__link">
+                        <li class="button">
+                            <a href="#" class="button__link">
                                 <img src="pics/chat.svg" alt="chat">
                             </a>
                         </li>
 
-                        <li class="nav-list__item">
-                            <a href="#" class="nav-list__link">
+                        <li class="button">
+                            <a href="#" class="button__link">
                                 <img src="pics/profile.svg" alt="profile">
                             </a>
                         </li>
 
                     </ul>
-                </nav>
+                </footer>
 
-                <p class="email">
-                    <a href="mailto:mail@cps.com" class="email__link">mail@cps.com</a>
-                </p>
+                <div class="adress">
+                        <a href="mailto:mail@cps.com" class="adress__email">mail@cps.com</a>
+                        <a href="tel:+78008908900" class="adress__phone">8 800 890 8900</a>
+                </div>
 
-                <p class="phone">
-                    <a href="tel:+78008908900" class="phone__link">8 800 890 8900</a>
-                </p>
+                <div class="langs">
+                    <button class="langs__item langs__item--checked">ru</button>
+                    <button class="langs__item">en</button>
+                    <button class="langs__item">ch</button>
+                </div>
 
-                <form action="#" class="langs">
-
-                    <input type="radio" name="lang" class="langs__item" id="ru" checked>
-                    <label for="ru" class="langs__label langs__label--checked">
-                        ru
-                    </label>
-
-                    <input type="radio" name="lang" class="langs__item" id="en">
-                    <label for='en' class="langs__label ">
-                        en
-                    </label>
-
-                    <input type="radio" name="lang" class="langs__item" id="ch">
-                    <label for="ch" class="langs__label ">
-                        ch
-                    </label>
-
-                </form>
             </div>
-        </div>
+        </aside>
     </main>
 </body>
 
