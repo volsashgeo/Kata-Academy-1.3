@@ -32,7 +32,7 @@
 .aside__wrapper {
     margin: 0 24px;
 }
-.wrapper {
+.main__wrapper {
     margin: 0 16px;
 }
 
@@ -249,7 +249,7 @@ text-align: left;
 
 @media (min-width: 768px) {
 
-    .wrapper {
+    .main__wrapper {
         margin: 0 25px 0 24px;
     }
 
@@ -345,7 +345,7 @@ text-align: left;
 
 @media (min-width: 1120px) {
 
-     .wrapper {
+     .main__wrapper {
         margin: 0 25px 0 32px;
     }
 
