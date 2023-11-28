@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'TTLakes';
-    src: url("/font/TTLakes-Regular.ttf");
+    src: url("font/TTLakes-Regular.ttf");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'TTLakes';
-    src: url("/font/TTLakes-Bold.ttf");
+    src: url("font/TTLakes-Bold.ttf");
     font-style: normal;
     font-weight: bold;
 }
