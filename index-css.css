@@ -209,12 +209,13 @@ body {
     letter-spacing: -0.20000000298023224px;
     color: #1B1C21;
     margin-bottom: 16px;
+    align-items: center;
 }
 
 .link-read-next:hover {
-    scale: 1.2;
-    translate: 43px -6px;
-    transition: scale 0.5s ease-out, translate 0.5s ease-in-out;
+    scale: 1.1;
+    translate:10px;
+    transition: scale 0.5s ease, translate 0.5s ease-in-out;
     border: 3px dashed gray;
     min-width: 170px;
 
@@ -322,8 +323,6 @@ body {
     .description+.description {
         margin-bottom: 0;
     }
-
-    /** Конец. Текст */
 
     .picture__pic {
         border-radius: 7px 0 0 7px;
@@ -583,3 +582,130 @@ body {
 .langs__item--checked {
     color: #7E7E82
 }
+
+
+
+
+
+.repair {
+    text-transform:uppercase ;
+    margin: 15px 0 32px;
+}
+
+.brands {
+    display: flex;
+    overflow: hidden;
+}
+
+.brand {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    min-width: 224px;
+    max-height: 72px;
+    padding: 9px 16px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 6px;
+    margin-right: 16px;
+}
+
+.swiper-slide {
+    min-width: 224px;
+    vertical-align: bottom;
+
+}
+
+@media (max-width:767px) {
+    .brands {
+        display: none;
+    }
+}
+
+.brand__pic {
+    align-self: center;
+}
+
+.brand__logo {
+    vertical-align: bottom;
+}
+
+@media(max-width:767px) {
+    .brand {
+        min-width: 240px;
+    }
+
+    .brands-list .link-read-next {
+        display: none;
+    }
+}
+
+.arrow {
+    width: 38px;
+    height: 38px;
+    border:1px solid rgba(255, 62, 121, 1);
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+}
+
+.arrow svg {
+    margin: auto;
+}
+
+@media(max-width:767px) {
+    .repair {
+        margin-bottom: 40px;
+    }
+
+    .brands-list .link-read-next {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .repair {
+        margin-bottom: 40px;
+    }
+    .brands {
+        position: relative;
+        top:-115px;
+        max-height: 160px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(223px,1fr));
+        column-gap: 24px;
+        row-gap:16px;
+    }
+
+    .brands-list .link-read-next {
+        position: relative;
+        top:-115px;
+        display: flex;
+        margin-top: 24px;
+    }
+
+
+    .swiper {
+        position: absolute;
+        top: -100vh;
+    }
+}
+
+
+.swiper-slide {
+    max-width: 240px;
+    height: 100px;
+    margin-bottom: 45px;
+  }
+
+.swiper-pagination {
+    --swiper-pagination-bottom: 20px;
+    --swiper-pagination-bullet-size: 12px;
+    --swiper-pagination-bullet-horizontal-gap: 4px;
+    --swiper-pagination-color:rgba(181, 182, 188, 1);
+}
+
+
+
+
+
+
