@@ -1,7 +1,7 @@
 import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
 
 const swiper = new Swiper(".swiper", {
-  init: false,
+  init: true,
 
   slidesPerView: "auto",
 
@@ -43,11 +43,11 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-if (window.innerWidth <= 767) {
-  swiper.init();
+if (window.innerWidth >= 768) {
+  swiper.destroy();
 }
 
-let brands = document.querySelector(".brands");
+let brands = document.querySelector(".swiper-wrapper");
 let linkReadNext = document.querySelector(".link-read-next");
 let linkText = document.querySelector(".link-read-next__text");
 let linkPic = document.querySelector(".link-read-next__pic");
