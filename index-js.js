@@ -53,15 +53,14 @@ let linkText = document.querySelector(".link-read-next__text");
 let linkPic = document.querySelector(".link-read-next__pic");
 
 linkReadNext.addEventListener("click", function () {
+  brands.classList.toggle('open-all-anchors');
   if (linkText.innerHTML === "Показать все") {
-    brands.style.maxHeight = "500px";
     linkText.innerHTML = "Скрыть";
     linkPic.style.rotate = "180deg";
   } else {
-    brands.style.maxHeight = "160px";
     linkText.innerHTML = "Показать все";
     linkPic.style.rotate = "0deg";
   }
 });
 
-linkReadNext.removeEventListener("click", function () {});
+
